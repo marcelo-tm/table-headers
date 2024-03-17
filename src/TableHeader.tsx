@@ -42,8 +42,6 @@ export function TableHeader({ name, sortList, onChange }: TableHeaderProps) {
     }
   }, [name, sortList]);
 
-  console.log();
-
   useEffect(() => {
     if (
       sortList.length > 1 &&
